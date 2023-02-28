@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Omnifood is an AI-powered food subscription that will make you eat healthy again 365 days/year.It's tailored to your personal tastes and nutritional needs."
+    <meta name="description" content="Omnifood is an AI-powered food subscription that will make you eat healthy again 365 days/year.It's tailored to your personal tastes and nutritional needs."  />
     <!-- ALWAYS INCLUDE THIS LINE OF CODE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/favicon-64px.png" />
@@ -406,20 +406,20 @@
               <p class="cta-text">
                 Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
               </p>
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
 
                   <label for="full-name">Full Name:</label>
-                  <input id="full-name" type="text" placeholder="John Smith" required>
+                  <input name="full-name"  id="full-name" type="text" placeholder="John Smith" required>
                 </div>
                 <div>
 
                   <label for="email">Email Address</label>
-                  <input id="email" type="email" placeholder="me@example.com" required>
+                  <input name="email" id="email" type="email" placeholder="me@example.com" required>
                 </div>
                 <div>
                   <label for="select-where">Where did you hear about us</label>
-                  <select id="select-where" required>
+                  <select name="select-where" id="select-where" required>
                     <option value="">Please choose one option</option>
                     <option value="friends">Friends and Family</option>
                     <option value="youtube">Youtube video</option>
